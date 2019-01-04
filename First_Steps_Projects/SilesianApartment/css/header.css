@@ -1,0 +1,51 @@
+.page-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    max-height: 20vh;
+    background: #fff;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);
+    z-index: 999;
+}
+
+.menu-brand {
+    float: left;
+    margin: 16px 0;
+}
+
+.menu-brand a {
+    display: block;
+}
+
+.menu-links {
+
+    float: right;
+    margin: 40px 0;
+}
+
+.menu-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu-links a {
+    font: 24px 'Chakra Petch', Arial, sans-serif;
+    font-weight: bold;
+    display: block;
+    padding: 12px 20px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 20px;
+}
+
+.menu-links a:hover,
+.menu-links .active {
+    color: #fff;
+    background-color: #CC9A32;
+}
